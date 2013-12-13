@@ -212,6 +212,10 @@ small {
   padding-top: 200px;
 }
 
+p.credits {
+  font-size: 12px !important;
+}
+
 /*
     And now we start to style each step separately.
 */
@@ -250,6 +254,9 @@ small {
   font-size: 32px;
 }
 
+#asymmetric img {
+  vertical-align: middle;
+}
 
 .impress-enabled          { pointer-events: none }
 .impress-enabled #impress { pointer-events: auto }
