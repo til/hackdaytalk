@@ -214,6 +214,8 @@ small {
 
 p.credits {
   font-size: 12px !important;
+  position: absolute;
+  bottom: 50px;
 }
 
 /*
@@ -242,19 +244,28 @@ p.credits {
   margin: 0;
 }
 
-#numeric-operations p,  #symmetric p {
+.numeric-operations p,  .symmetric p {
   font-size: 32px;
   margin: 0.5em 0;
 }
 
-#numeric-operations td, #symmetric td {
+.numeric-operations td, .symmetric td {
   border: 1px solid red;
   min-width: 45px;
   text-align: center;
   font-size: 32px;
 }
 
-#asymmetric img {
+.row table, .row p {
+  display: inline-block;
+}
+.row p {
+  position: relative;
+  top: -30px;
+  margin: 0 40px;
+}
+
+.asymmetric img {
   vertical-align: middle;
 }
 

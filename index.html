@@ -159,9 +159,10 @@
         <h1>How does encryption work?</h1>
       </div>
 
-      <div class="step slide" id="numeric-operations">
+      <div class="step slide numeric-operations">
         <h1>Numeric operations</h1>
-        <p>a=1, b=2, c=3, ...</p>
+        <p>Represent text as numbers</p>
+        <p>For example with this scheme: a=1, b=2, c=3, ...</p>
         <table>
           <tr>
             <td>h</td><td>e</td><td>l</td><td>l</td><td>o</td>
@@ -171,36 +172,107 @@
           </tr>
         </table>
       </div>
+      <div class="step slide numeric-operations">
+        <h1>Numeric operations</h1>
+        <p>Represent text as numbers</p>
+        <p>For example with this scheme: a=1, b=2, c=3, ...</p>
+        <div class="row">
+          <table>
+            <tr>
+              <td>h</td><td>e</td><td>l</td><td>l</td><td>o</td>
+            </tr>
+            <tr>
+              <td>8</td><td>5</td><td>12</td><td>12</td><td>15</td>
+            </tr>
+          </table>
+          <p>? -&gt;</p>
+          <table>
+            <tr>
+              <td>k</td><td>n</td><td>e</td><td>e</td><td>q</td>
+            </tr>
+            <tr>
+              <td>11</td><td>14</td><td>5</td><td>5</td><td>17</td>
+            </tr>
+          </table>
+        </div>
+        <p>apply some numeric operation</p>
+      </div>
 
-      <div class="step slide" id="symmetric">
+      <div class="step slide light" id="two-kinds">
+        <h2>Two kinds of encryption:</h2>
+        <h1>Symmetric</h1>
+        <h1>Asymmetric</h1>
+      </div>
+
+      <div class="step slide symmetric">
         <h1>Symmetric encryption</h1>
-        <p>Secret key: a=17, ... e=9, h=3, l=19, o=2, ...</p>
-        <p>This</p>
-        <table>
-          <tr>
-            <td>h</td><td>e</td><td>l</td><td>l</td><td>o</td>
-          </tr>
-          <tr>
-            <td>8</td><td>5</td><td>12</td><td>12</td><td>15</td>
-          </tr>
-        </table>
-        <p>becomes</p>
-        <table>
-          <tr>
-            <td>k</td><td>n</td><td>e</td><td>e</td><td>q</td>
-          </tr>
-          <tr>
-            <td>11</td><td>14</td><td>5</td><td>5</td><td>17</td>
-          </tr>
-        </table>
+      </div>
+      <div class="step slide symmetric">
+        <h1>Symmetric encryption</h1>
+        <p>Secret key. Example: h=3, e=9, l=19, o=2, ...</p>
+      </div>
+      <div class="step slide symmetric">
+        <h1>Symmetric encryption</h1>
+        <p>Secret key. Example: h=3, e=9, l=19, o=2, ...</p>
+        <p>h=8+3, e=5+9, l=12+19, o=5+2</p>
+        <div class="row">
+          <table>
+            <tr>
+              <td>h</td><td>e</td><td>l</td><td>l</td><td>o</td>
+            </tr>
+            <tr>
+              <td>8</td><td>5</td><td>12</td><td>12</td><td>15</td>
+            </tr>
+          </table>
+          <p>-&gt;</p>
+          <table>
+            <tr>
+              <td>k</td><td>n</td><td>e</td><td>e</td><td>q</td>
+            </tr>
+            <tr>
+              <td>11</td><td>14</td><td>5</td><td>5</td><td>17</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="step slide symmetric">
+        <h1>Symmetric encryption</h1>
+        <p>Secret key. Example: h=3, e=9, l=19, o=2, ...</p>
+        <p>h=8+3, e=5+9, l=12+19, o=5+2</p>
+        <div class="row">
+          <table>
+            <tr>
+              <td>h</td><td>e</td><td>l</td><td>l</td><td>o</td>
+            </tr>
+            <tr>
+              <td>8</td><td>5</td><td>12</td><td>12</td><td>15</td>
+            </tr>
+          </table>
+          <p>-&gt;</p>
+          <table>
+            <tr>
+              <td>k</td><td>n</td><td>e</td><td>e</td><td>q</td>
+            </tr>
+            <tr>
+              <td>11</td><td>14</td><td>5</td><td>5</td><td>17</td>
+            </tr>
+          </table>
+        </div>
+        <br />
+        <br />
         <p>Secret key needed to encrypt and decrypt</p>
       </div>
 
-      <div class="step slide" id="asymmetric">
+      <div class="step slide asymmetric">
+        <h1>Asymmetric encryption</h1>
+      </div>
+      <div class="step slide asymmetric">
         <h1>Asymmetric encryption</h1>
         <p>Public / private key pair</p>
-        <p>Hands on demo</p>
-        <hr />
+      </div>
+      <div class="step slide asymmetric">
+        <h1>Asymmetric encryption</h1>
+        <p>Public / private key pair</p>
         <p>
           Public "key":
           <img src="lock.jpg">
@@ -217,18 +289,42 @@
           <a href="http://www.flickr.com/photos/wwworks/4612188594/sizes/z/in/photolist-82yEZ1-999NZM-aTEYZV-a1Rhwy-a1dfJp-8ooMXs-965z73-cu1K6Q-9U9kbp-91o35F-fP2ceD-9HFadj-dap6Fw-7GWipf-9Vypi4-8qAAYL-aPUZEi-7HtarY-9ZAi9V-8cywWj-7UcbTq-9Uyqnf-igFRJ1-igFUgy-igFVBQ-igFqrX-igFNyJ-igFpbv-9HCiiZ-8xt6j2-eRVZ4H-8xt6mT-bWrqBj-9h8yNT-aq1ESd-7AzsNS-8ipkAe-8cTMXf-7XbEWo-gEp2Kd-dEDvz5-9Gpzh6-7Zk8wP-cz5G3b-7Azt2s-9Rq2pV-8FzCd2-aXeGaZ-eKfc5v-7AvH2n-dEctwv/">woodleywonderworks on flickr</a>
         </p>
       </div>
+      <div class="step slide asymmetric">
+        <h1>Asymmetric encryption</h1>
+        <p>Public / private key pair</p>
+        <p>
+          Public "key":
+          <img src="lock.jpg">
+          <img src="lock.jpg">
+          <img src="lock.jpg">
+        </p>
+        <p>
+          Private key:
+          <img src="key.jpg">
+        </p>
+        <p>Hands on demo!</p>
+        <p class="credits">
+          Photos:
+          <a href="http://www.flickr.com/photos/42216816@N08/8635777324/in/photolist-ea7BJu-etYQzK-7E1PoT-7FR5z9-9bq62b-eLRdLX-8JMJQT-7Cefmw-aa1NjR">Sébastien Gagnon on flickr</a>
+          <a href="http://www.flickr.com/photos/wwworks/4612188594/sizes/z/in/photolist-82yEZ1-999NZM-aTEYZV-a1Rhwy-a1dfJp-8ooMXs-965z73-cu1K6Q-9U9kbp-91o35F-fP2ceD-9HFadj-dap6Fw-7GWipf-9Vypi4-8qAAYL-aPUZEi-7HtarY-9ZAi9V-8cywWj-7UcbTq-9Uyqnf-igFRJ1-igFUgy-igFVBQ-igFqrX-igFNyJ-igFpbv-9HCiiZ-8xt6j2-eRVZ4H-8xt6mT-bWrqBj-9h8yNT-aq1ESd-7AzsNS-8ipkAe-8cTMXf-7XbEWo-gEp2Kd-dEDvz5-9Gpzh6-7Zk8wP-cz5G3b-7Azt2s-9Rq2pV-8FzCd2-aXeGaZ-eKfc5v-7AvH2n-dEctwv/">woodleywonderworks on flickr</a>
+        </p>
+      </div>
 
       <div class="step slide">
         <h1>Asymmetric encryption</h1>
         <p>Based on crazy mathematics</p>
-        <p>Easy to compute in one direction, hard in the other</p>
-        <p>RSA</p>
-        <p>Prime numbers and semi primes</p>
       </div>
-
-      <div class="step slide light">
-        <p>RSA most common, but there are other algorithms</p>
-        <p>Elliptic Curve Cryptography</p>
+      <div class="step slide">
+        <h1>Asymmetric encryption</h1>
+        <p>Based on crazy mathematics</p>
+        <p>Easy to compute in one direction, hard in the other</p>
+      </div>
+      <div class="step slide">
+        <h1>Asymmetric encryption</h1>
+        <p>Based on crazy mathematics</p>
+        <p>Easy to compute in one direction, hard in the other</p>
+        <p>RSA is the most common algorithm</p>
+        <p>but there are others, such as Elliptic Curve Cryptography</p>
       </div>
 
       <div class="step slide light">
