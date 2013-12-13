@@ -41,6 +41,8 @@ q {
 }
 h1 {
   font-size: 160%;
+  font-weight: bold;
+  letter-spacing: -1px;
 }
 table {
     border-collapse: collapse;
@@ -188,25 +190,26 @@ a:focus {
     text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
 
     //font-family: 'Open Sans', Arial, sans-serif;
-    font-size: 30px;
+    font-size: 36px;
     //line-height: 36px;
     //letter-spacing: -1px;
-}
-
-.slide q {
-    display: block;
-    font-size: 50px;
-    line-height: 72px;
-
-    margin-top: 100px;
 }
 
 .slide q strong {
     white-space: nowrap;
 }
 
-.slide p {
+.slide p, .slide q {
   margin: 1em 0;
+}
+small {
+  font-size: 28px;
+}
+
+
+/* For slides with little content - poor man's vertical centering */
+.light {
+  padding-top: 200px;
 }
 
 /*
@@ -214,6 +217,7 @@ a:focus {
 */
 
 #intro {
+  font-size: 32px;
 }
 #intro h1 {
   font-weight: bold;
@@ -233,6 +237,19 @@ a:focus {
 #finish article p {
   margin: 0;
 }
+
+#numeric-operations p,  #symmetric p {
+  font-size: 32px;
+  margin: 0.5em 0;
+}
+
+#numeric-operations td, #symmetric td {
+  border: 1px solid red;
+  min-width: 45px;
+  text-align: center;
+  font-size: 32px;
+}
+
 
 .impress-enabled          { pointer-events: none }
 .impress-enabled #impress { pointer-events: auto }
