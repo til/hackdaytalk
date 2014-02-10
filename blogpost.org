@@ -2,6 +2,7 @@
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="blogpost.css" />
 #+OPTIONS: html-style:nil toc:nil todo:nil html-preamble:nil html-postamble:nil
 #+OPTIONS: num:nil title:nil
+# git push origin master:gh-pages
 
 This is the blog-post version of a talk held by Lisa and Til at the
 railsgirls hackday last Dec 14th. It tries to be an _introduction_ to
@@ -78,7 +79,7 @@ that you somehow exchange the shared secret privately, e.g. by meeting
 in person. If you only know each other from the internet, then this is
 not possible.
 
-Thankfully, smart people have come up with techniques to do
+Thankfully, smart people have come up with techniques to do:
 
 
 * Asymmetric Encryption
