@@ -5,9 +5,9 @@
 # git push origin master:gh-pages
 
 This is the blog-post version of a talk held by Lisa and Til at the
-railsgirls hackday last Dec 14th. It tries to be an _introduction_ to
-the topic - don't be offended if you find it is an oversimplification,
-because it certainly is.
+railsgirls hackday on Dec 14th 2013. It tries to be an _introduction_
+to the topic - don't be offended if you find it is an
+oversimplification, because it certainly is.
 
 
 * What is privacy and why does it even matter?
@@ -16,8 +16,15 @@ Privacy is a human right. It is the line that defines how far society
 can intrude our personal lives. It developed over time from the
 emergence of personal space and private property, and has become a
 constituting element of our individuality. Nowadays personal data
-defines us and our private lives, being able to decide how this data
-is gathered and used is an important part of our civil rights.
+defines us and our private lives - being able to decide how this data
+is gathered and used is an important part of our civil rights, and a
+fundamental building block of democracy.
+
+We develop our ideas and thoughts in private, and we want to be able
+to communicate these with people close to us, without the permanent
+fear of someone else intercepting, storing and possibly using them
+against us anytime in the future. Fears like that have a chilling
+effect on free expression.
 
 
 * Defend yourself
@@ -52,7 +59,7 @@ communication partner can make sense of it.
 
 All kinds of communication data, the text of an email, the audio of a
 phone call or anything else, can be represented as sequence of
-numbers. Encryption is an transformation that changes this sequence of
+numbers. Encryption is a transformation that changes this sequence of
 numbers, so it doesn't really matter what kind of data is being
 encrypted.
 
@@ -143,29 +150,37 @@ installing a modified version of Firefox:
 https://www.torproject.org/download/download-easy.html
 
 
+* Cryptoparty
+
+Cryptoparties are events where beginners can learn hands on how to use
+PGP, Tor, and other related technologies. They are organized and run
+by volunteers in many different cities. The next one in berlin is on
+Friday Feb 14th, 2014: https://www.cryptoparty.in/berlin/party
+
 
 * Links
 
 [[https://www.cryptoparty.in/berlin][Cryptoparties in Berlin]]
 
-[[https://www.cryptoparty.in/documentation/handbook][Cryptoparty Handbook]]
+[[https://www.cryptoparty.in/documentation/handbook][Cryptoparty Handbook]] or better: [[http://mirror-de.cryptoparty.is/handbook/][Cryptoparty Handbook - direct link]] -
+very detailed explanations on various technologies.
 
-[[https://www.youtube.com/watch?v%3DiHlzsURb0WI][Überwachungsstaat - Was ist das? (Animated video, in german)]]
+[[https://www.youtube.com/watch?v=iHlzsURb0WI][Überwachungsstaat - Was ist das? (Animated video, in german)]]
 
-[[http://annalist.noblogs.org/post/2014/01/19/kleine-philosophie-der-digitalen-sicherheit/][Anna List: Kleine Philosophie der digitalen Sicherheit (in german)]]
+[[http://www.toolness.com/wp/2014/01/does-privacy-matter/][Does privacy matter? Blog post by Atul from Mozilla]]
 
-http://coding.smashingmagazine.com/2012/05/17/backpack-algorithms-and-public-key-cryptography-made-easy/
+[[http://annalist.noblogs.org/post/2014/01/19/kleine-philosophie-der-digitalen-sicherheit/][Anna List: Kleine Philosophie der digitalen Sicherheit (Blogpost in german)]]
 
-http://arstechnica.com/security/2013/10/a-relatively-easy-to-understand-primer-on-elliptic-curve-cryptography/
+[[http://coding.smashingmagazine.com/2012/05/17/backpack-algorithms-and-public-key-cryptography-made-easy/][Smashing Magazine: Backpack Algorithms And Public-Key Cryptography Made Easy (Blogpost)]]
 
-[[https://www.youtube.com/watch?v=tbcy_ZxXLl8][Talk - Eben Moglen - Free and Open Software: Paradigm for a New Intellectual Commons]]
+[[http://arstechnica.com/security/2013/10/a-relatively-easy-to-understand-primer-on-elliptic-curve-cryptography/][arstechnica: A (relatively easy to understand) primer on elliptic curve cryptography (Blogpost)]]
 
-http://www.toolness.com/wp/2014/01/does-privacy-matter/
+[[https://www.youtube.com/watch?v=tbcy_ZxXLl8][Eben Moglen - Free and Open Software: Paradigm for a New Intellectual Commons (Video)]]
 
-** Steve Klabnik "No Secrets Allowed" https://www.youtube.com/watch?v=LjZk8PP-u3c
+[[https://www.youtube.com/watch?v=LjZk8PP-u3c][Steve Klabnik: No secrets allowed (Video)]]
 
-** Nice video on how ssl works http://www.youtube.com/watch?v=iQsKdtjwtYI
+[[http://www.youtube.com/watch?v=iQsKdtjwtYI][How ssl works (Video)]]
 
-** Steve Klabnik http://rubyrogues.com/132-rr-nothing-to-hide-with-steve-klabnik/
+[[http://rubyrogues.com/132-rr-nothing-to-hide-with-steve-klabnik/][Steve Klabnik on the Rubyrogues: Nothing to hide (Podcast)]]
 
-** Our hackday talk slides
+[[http://til.github.io/hackdaytalk/][Slides from the Railsgirls Hackday Talk]]
