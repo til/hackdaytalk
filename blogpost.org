@@ -109,10 +109,10 @@ This principle is the basis for the following technologies.
 
 PGP is the most common tool for encrypting emails. A good way to start
 is to install the email program Thunderbird and a plugin for it called
-Enigma. We recommend that you visit a cryptoparty or let a friend show
-you how to set it up. While it's perfectly possible to learn it on
-your own by reading tutorials, it's more fun and quicker with personal
-advice.
+Enigmail. We recommend that you visit a cryptoparty or let a friend
+show you how to set it up. While it's perfectly possible to learn it
+on your own by reading tutorials, it's more fun and quicker with
+personal advice.
 
 
 * HTTPS
